@@ -4,7 +4,9 @@ import Root from "./components/Root";
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
+import NotFoundPage from "./Pages/NotFoundPage";
 import SignUp from "./Pages/SignUp";
+
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "signup",
         element: <SignUp />
+      },
+      {
+        path: "*",
+        element: <NotFoundPage />
       }
     ]
   }

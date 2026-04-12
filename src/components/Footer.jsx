@@ -12,7 +12,7 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <footer className="bg-black  pt-20 pb-6">
+    <footer className="bg-black text-white  pt-20 pb-6">
       <Container>
         <div className=" flex gap-[87px]">
           {/* Subscribe */}

@@ -1,8 +1,13 @@
 import React from 'react'
+import Banner from '../Sections/Banner'
+import TodaySection from '../Sections/TodaySection'
 
 const HomePage = () => {
   return (
-    <div>Home Page</div>
+    <>
+      <Banner />
+      <TodaySection />
+    </>
   )
 }
 
