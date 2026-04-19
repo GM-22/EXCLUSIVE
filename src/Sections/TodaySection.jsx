@@ -100,7 +100,7 @@ const TodaySection = () => {
     </section>
   );
 };
-const ProductCard = ({ title, price, originalPrice, review }) => {
+export const ProductCard = ({ title, price, originalPrice, review }) => {
   return (
     <div className="w-[270px] h-[350px]  rounded-[4px]">
       <div className="relative">
