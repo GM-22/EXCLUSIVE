@@ -25,7 +25,7 @@ const TodaySection = () => {
             <SectionHeader title="Today's" subtitle="Flash Sales" />
           </div>
           <div className="mb-6.5">
-            <Swiper
+            {/* <Swiper
               slidesPerView={4}
               spaceBetween={30}
               pagination={{
@@ -90,7 +90,7 @@ const TodaySection = () => {
                   review="(88)"
                 />
               </SwiperSlide>
-            </Swiper>
+            </Swiper> */}
           </div>
           <div>
             <Button title="View All Products" />
